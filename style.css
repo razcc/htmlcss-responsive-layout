@@ -4,20 +4,6 @@
     box-sizing: border-box;
 }
 
-h1 {
-    margin-bottom: 3rem;
-    font-size: 2.5rem;
-}
-
-h2 {
-    margin-bottom: 2.5rem;
-    font-size: 2rem;
-}
-
-h3 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-}
 
 img {
     max-width: 100%;
@@ -68,6 +54,7 @@ img {
  }
  .prima-section-1 h2{
     color: blue;
+    margin-bottom: 2rem;
  }
  .prima-section-1 figure{
     display: inline-block;
@@ -106,6 +93,7 @@ img {
  .seconda-section-1 i,
  .seconda-section-1 h2{
     color: blue;
+    margin-bottom: 2rem;
  }
 
   /* terza section1 */
@@ -125,6 +113,7 @@ img {
  .terza-section-1 i,
  .terza-section-1 h2{
     color: blue;
+    margin-bottom: 2rem;
  }
 
   /* quarta section1 */
@@ -144,6 +133,7 @@ img {
  .quarta-section-1 i,
  .quarta-section-1 h2{
     color: blue;
+    margin-bottom: 2rem;
  }
 
   /* quinta section1 */
@@ -163,4 +153,43 @@ img {
  .quinta-section-1 i,
  .quinta-section-1 h2{
     color: blue;
+    margin-bottom: 2rem;
  }
+
+
+
+  /************************************************
+   RESPONSIVE
+   TABLET
+ ************************************************/
+@media  screen 
+and (min-width: 768px)
+ {
+    .section-1{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .prima-section-1{
+        width: 64%;
+        margin-right: auto;
+       
+    }
+    .seconda-section-1,
+    .terza-section-1,
+    .quarta-section-1,
+    .quinta-section-1{
+        width: 32%;
+        margin-right: auto;
+        
+    }
+    
+}
+
+
+
+ /************************************************
+   RESPONSIVE
+   DESKTOP
+ ************************************************/
