@@ -32,6 +32,9 @@ img {
     color: white;
     padding: 1rem;   
  }
+ .menu-desktop{
+    display: none;
+ }
 
  /************************************************
     MAIN
@@ -193,3 +196,31 @@ and (min-width: 768px)
    RESPONSIVE
    DESKTOP
  ************************************************/
+ @media  screen 
+and (min-width: 1024px)
+{
+
+header .menu-hamburger{
+    display: none;
+}
+
+.menu-desktop{
+    display: inline-block;
+}
+.menu-desktop span{
+    margin-right: 1.5rem;
+}
+.get-started{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.prima-section-1{
+    display: flex;
+}
+.prima-section-1 figure{
+    display: inline-block;
+    align-self: flex-end;
+}
+}
