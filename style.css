@@ -60,6 +60,9 @@
  .prima-section-1 figure{
     display: inline-block;
  }
+ .prima-section-1 img{
+   max-width: 100%;
+ }
  .prima-section-1 button{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -177,6 +180,10 @@
     margin-bottom: 2rem;
 }
 
+.container-section-2 img{
+   max-width: 100%;
+}
+
 .planning-2{
    background-color: white;
    border-radius: 20px;
@@ -185,6 +192,10 @@
    color: black;
    margin-top: 2rem;
    
+}
+
+.planning-2 img{
+   max-width: 100%;
 }
 
 .freccia-giu-section-2{
@@ -252,17 +263,26 @@ and (min-width: 768px)
 
     .prima-section-1{
         width: 64%;
-        margin-right: auto;
-       
+        margin-right: auto;  
     }
+
     .seconda-section-1,
     .terza-section-1,
     .quarta-section-1,
     .quinta-section-1{
         width: 32%;
-        margin-right: auto;
-        
+        margin-right: auto;   
     }
+
+    .card-section-3{
+      flex-direction: row;
+    }
+
+    .colonna-destra-card-section-3{
+      width: 60%;
+      padding-left: 2rem;
+    }
+ }
     
   
 
