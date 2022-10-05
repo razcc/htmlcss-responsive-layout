@@ -223,7 +223,7 @@ and (min-width: 768px)
         
     }
     
-}
+  
 
 
 
@@ -235,27 +235,55 @@ and (min-width: 768px)
 and (min-width: 1024px)
 {
 
-header .menu-hamburger{
-    display: none;
-}
+   header .menu-hamburger{
+      display: none;
+   }
 
-.menu-desktop{
-    display: inline-block;
-}
-.menu-desktop span{
-    margin-right: 1.5rem;
-}
-.get-started{
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 2rem;
-}
-.prima-section-1{
-    display: flex;
-}
-.prima-section-1 figure{
-    display: inline-block;
-    align-self: flex-end;
-}
+   .menu-desktop{
+      display: inline-block;
+   }
+   .menu-desktop span{
+      margin-right: 1.5rem;
+   }
+   .get-started{
+      background-color: white;
+      color: black;
+      padding: 1rem;
+      border-radius: 2rem;
+   }
+   .prima-section-1{
+      display: flex;
+   }
+   .prima-section-1 figure{
+      display: inline-block;
+      align-self: flex-end;
+   }
+   .section-2 .container-section-2{
+      display: flex;
+      width: 60%;
+   }
+
+   .colonna-sinistra-desktop{
+      padding-right: 2rem;
+      width: 60%;
+   }
+
+   .planning-2 h2,
+   .planning-2 p{
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+   }
+   .freccia-giu-section-2{
+      font-size: 1rem;
+      padding: 1rem;
+   }
+
+   .planning-2{
+      width: 40%;
+      align-self: flex-end;
+      
+   }
+   .planning-2>div{
+      margin-bottom: 0.5rem;
+   }
 }
